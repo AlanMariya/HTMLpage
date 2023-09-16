@@ -1,0 +1,30 @@
+h4{
+    color: rgb(79, 126, 110);
+}
+p{
+    color: rgb(18, 46, 225);
+}
+.head{
+    background-color: blanchedalmond;
+}
+#link {
+     text-decoration: none;
+    float: right;   
+}
+.box{
+    border: 1px solid red;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding: 20px 10px 20px 10px;
+
+}
+table,th,tr,td{ border: 1px solid blue;
+    margin: 20px 30px 50px 50px;
+    background-color: aqua;
+    padding: 30px 30px 20px 30px;
+    
+}
+th,td{
+    padding: 10px;
+}
