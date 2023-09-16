@@ -3,60 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROGRAM1</title>
+    <title>ICT</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>welcome</h1> 
-   <h2>welcome</h2>
-   <h3>welcome</h3>
-   <h4>welcome</h4>
-   <h5>welcome</h5>
-   <h6>welcome</h6>
-   <div>
-    <p>Welcome to HTML.</p>
-    <a href="welcome.html" target="_blank">html</a>
-   </div>
-   <ul>
-   <li>apples</li>
-   <li>orange</li>
-   <li>grapes</li>
-   </ul>
-   <ol>
-    <li>apples</li>
-    <li>oranges</li>
-    <li>grapes</li>
-   </ol>
-   <label for="username">username</label><br>
-   <input type="text" placeholder="username">
-   <button>click</button>
-   <table>
-    <thead>
-        <tr>
-           <th>name</th>
-           <th>age</th>
-           <th>class</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-           <td>Isa</td>
-           <td>30</td>
-           <td>Thrissur</td>
-        </tr>
-        <tr> 
-            <td>Theresa</td>
-            <td>20</td>
-            <td>Ernamkulam</td>
+  <!-- header strarts here -->
+  <header>
+    <!-- <img src="ICTAK logo.jpg" alt="logo"> -->
+    <img src="logo.jfif" alt="ict logo" id="logo">
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">courses</a>
+        <a href="#">Services</a>
+        <a href="#">About us</a>
+        <a href="#">contact us</a>
+    </nav> 
+  </header>
+  <!-- header ends here -->
 
-        </tr>
-        <tr>
-            <td>Bella</td>
-            <td>15</td>
-            <td>Kozhikode</td>
-        </tr>
-    </tbody>
-   </table>
-   <p>Please type this content in <b>bold</b> and <i>italics</i>.</p>
-   <span>This is span tag.</span>
+  <!--aside starts here-->
+  <div class="side">
+    <h2>Why to associate with ICT academy</h2><br>
+  
+      <ul>
+        <li>Government supported and Industry led program</li>
+        <li>Government scholarships and affordable fees model</li>
+        <li>one-stop shop for students,unemployed and working profesionals</li>
+      </ul>
+  
+  </div>
+  <!--aside ends here-->
+  <!--login box starts here-->
+  <form action="#" class="my_login">
+    <h1>User Login</h1><br>
+    <label for ="username">Username</label><br>
+    <input type="text" placeholder="username"><br>
+    <label for = "password">Password</label><br>
+    <input type = "password" placeholder="password"><br>
+    <button id="logg">Login</button><br> 
+    <h5>Need an account?</h5>
+    <a href="#">Sign Up</a>
+  </form>
+  <!--login box ends here-->
+  <div class="container">
+    <div class="box_A">
+      <P>ICT Academy of Kerala (ICTAK) is a social enterprise  officially launched on the 24th of June, 2014. 
+         The organization had a humble beginning providing skill training programs to selected academic institutions.</P>
+         <a href="#">Read More</a>
+    </div>
+    <div class="box_B">
+      <p>Over the years, ICTAK has grown to a prime service provider of all ICT and innovation-related training and capacity-building programs in the state</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="box_C">
+      <p>Company is supported by Govt. of India, partnered by Govt. of Kerala and the IT industry.</p>
+      <a href="#">Read More</a>
+    </div>
+    <div class="box_D">
+      <p>Vision & Values <br>
+        "To emerge as the single-point establishment for all the ICT related capability building in the state."</p>
+        <a href="#">Read More</a>
+    </div>
+
+  </div>
 </body>
 </html>
